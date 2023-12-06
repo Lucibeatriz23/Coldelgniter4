@@ -1,0 +1,7 @@
+// Este era la primer forma de incluir archivos
+// @import 'base/variables';
+// @import 'contenido/contenido';
+// Esta es la segunda forma de inclui archivos
+@use 'base';
+@use 'contenido';
+@use 'layout';

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock & EDM Festival</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+
+<body>
+
+
+
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>
+                Rock & EDM Festival
+            </h1>
+
+            <nav class="navegacion-principal">
+                <a href="#">Line Up</a>
+                <a href="#">Galeria</a>
+                <a href="#">Boletos</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>Rock & EDM Festival </h2>
+                <p>Octubre 2023, Quintana Roo,México</p>
+            </div>
+        </div>
+        <video autoplay muted loop>
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.webm" type="video/webm">
+        </video>
+    </div>
+
+    <section class="contenedor sobre-festival">
+        <div class="imagen">
+            <sourse srcset="build/img/imagen_vocalista.avif" type="image/avif">
+                <sourse srcset="build/img/imagen_vocalista.webp" type="image/webp">
+                    <img src="build/img/imagen_vocalista.jpg" alt="imagen del vocalista">
+        </div>
+        <div class="contenido-festival">
+            <h2>Rock & EDM Festival </h2>
+            <p class="fecha">Octubre 2023,Quintana Roo,Mexico</p>
+            <p>Aliquam interdum lobortis pharetra. Praesent sed auctor augue, vitae luctus mi.</p>
+        </div>
+    </section>
+
+    <section class="lineup">
+        <h3>Line up</h3>
+        <p class="dia">Viernes 23</p>
+        <div class="escenarios-contenedor contenedor">
+
+            <div class="escenario rock bg-amarillo">
+                <p class="nombre-escenario">Escenario Rock</p>
+                <ul class="calendarios">
+                    <li>18:00 |<span>Nombre de la banda rock</span></li>
+                    <li>20:00 |<span>Nombre de la banda rock</span></li>
+                    <li>22:00 |<span>Nombre de la banda rock</span></li>
+                    <li>00:00 |<span>Nombre de la banda rock</span></li>
+                    <li>02:00 |<span>Nombre de la banda rock</span></li>
+                </ul>
+            </div>
+
+            <div class="escenario edm bg-verde">
+                <p class="nombre-escenario">Escenario EDM</p>
+                <ul class="calendarios">
+                    <li>18:00 |<span>Nombre de la banda EDM</span></li>
+                    <li>20:00 |<span>Nombre de la banda EDM</span></li>
+                    <li>22:00 |<span>Nombre de la banda EDM</span></li>
+                    <li>00:00 |<span>Nombre de la banda EDM</span></li>
+                    <li>02:00 |<span>Nombre de la banda EDM</span></li>
+                </ul>
+            </div>
+    </section>
+
+
+
+    <section class="galeria contenedor">
+        <h3>Galeria</h3>
+        <ul class="galeria-imagenes"></ul>
+
+    </section>
+    <footer class="site-footer">
+        <p>Rock & EDM Festival Derecho | Reservados </p>
+    </footer>
+
+    <script src="build/js/app.js"></script>
+</body>
+
+</html>
